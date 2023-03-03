@@ -1,0 +1,46 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 18,
+        "name": "xpto",
+        "description": "",
+        "id": "receber-desconto-da-qazando;xpto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4503841600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "que tenho um cupom gerado",
+            "match": {
+              "location": "DescontosStep.gerarCupom()"
+            },
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@gerar-cupom-rapido"
+          }
+        ]
+      }
+    ],
+    "name": "Receber desconto da qazando",
+    "description": "Eu como usuário da qazando\r\nquero receber um cupom de desconto\r\npara comprar um curso com valor reduzido",
+    "id": "receber-desconto-da-qazando",
+    "keyword": "Funcionalidade",
+    "uri": "desconto.feature"
+  }
+]
